@@ -1,0 +1,239 @@
+[
+  {
+    "period": "Pre-20th Century",
+    "events": [
+      {
+        "year": "1517–1917",
+        "title": "Ottoman Rule",
+        "description": "Palestine is part of the Ottoman Empire, with a largely Arab Muslim and Christian population, and a small Jewish community.",
+        "source": "https://www.britannica.com/place/Ottoman-Empire",
+        "image": "https://cdn.britannica.com/89/4789-050-B6176F52/Expansion-Ottoman-Empire.jpg"
+      }
+    ]
+  },
+  {
+    "period": "Early 20th Century",
+    "events": [
+      {
+        "year": 1897,
+        "title": "The First Zionist Congress",
+        "description": "The First Zionist Congress is held in Basel, Switzerland, led by Theodor Herzl, calling for the establishment of a Jewish homeland in Palestine.",
+        "source": "https://www.jewishvirtuallibrary.org/first-zionist-congress-and-basel-program-1897",
+        "image": "https://image.volkskrant.nl/222576861/width/2480/theodor-herzl-in-basel-circa-1897"
+      },
+      {
+        "year": 1917,
+        "title": "The Balfour Declaration",
+        "description": "The British government issues a statement supporting the establishment of a 'national home for the Jewish people' in Palestine.",
+        "source": "https://commonslibrary.parliament.uk/research-briefings/cbp-7766/#:~:text=The%20Balfour%20Declaration%2C%20as%20it,home%20for%20the%20Jewish%20people.%E2%80%9D",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Balfour_declaration_unmarked.jpg/800px-Balfour_declaration_unmarked.jpg"
+      }
+    ]
+  },
+  {
+    "period": "British Mandate (1917-1948)",
+    "events": [
+      {
+        "year": 1920,
+        "title": "The British Mandate for Palestine",
+        "description": "The League of Nations grants Britain administrative control over Palestine.",
+        "source": "https://www.britannica.com/place/Palestine/British-rule",
+        "image": "https://www.edmaps.com/assets/images/autogen/British_Mandate_for_Palestine_1922.jpg"
+      },
+      {
+        "year": "1936–1939",
+        "title": "The Arab Revolt",
+        "description": "Palestinian Arabs protest British rule and increased Jewish immigration, leading to a violent crackdown by British forces.",
+        "source": "https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict",
+        "image": "https://www.palquest.org/sites/default/files/media/PC_82-25_0.jpg"
+      },
+      {
+        "year": 1937,
+        "title": "The Peel Commission",
+        "description": "The first partition plan is proposed, suggesting separate Jewish and Arab states, which both sides ultimately reject.",
+        "source": "https://www.jewishvirtuallibrary.org/the-peel-commission",
+        "image": "https://cdn.britannica.com/67/141467-050-EA19BFB6/Partition-plan-Peel-Commission-report-1937.jpg"
+      },
+      {
+        "year": 1947,
+        "title": "United Nations Partition Plan",
+        "description": "The UN recommends partitioning Palestine into separate Jewish and Arab states, with Jerusalem as an international zone.",
+        "source": "https://www.un.org/en/situation-in-occupied-palestine-and-israel/history",
+        "image": "https://static01.nyt.com/images/2011/11/28/learning/Nov29LN/Nov29LN-articleInline.jpg"
+      }
+    ]
+  },
+  {
+    "period": "Israel’s Establishment and the First Arab-Israeli War (1948-1949)",
+    "events": [
+      {
+        "year": 1948,
+        "title": "Israel Declares Independence",
+        "description": "Israel declares independence on May 14. The zionist rejoice, for their long awaited dream is being fulfilled",
+        "source": "https://www.gov.il/en/pages/declaration-of-establishment-state-of-israel",
+        "image": "https://israeled.org/wp-content/uploads/2014/08/may-14-ben-gurion-independence-e1431609808915.png"
+      },
+      {
+        "year": 1948,
+        "title": "Al-Nakba - The calamity",
+        "description": "While the zionist rejoice of their victory, half of the Arab-Palestinians are forced out of there homes. All the while a great number of others got killed.",
+        "source": "https://nl.wikipedia.org/wiki/Nakba",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Palestinian_refugees.jpg"
+      },
+      {
+        "year": 1948,
+        "title": "First Arab–Israeli War",
+        "description": "The Arab-Israeli War of 1948 broke out when five Arab nations invaded territory in the former Palestinian mandate immediately following the announcement of the independence of the state of Israel.",
+        "source": "https://nl.wikipedia.org/wiki/Nakba",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/John_Bagot_Glubb_and_soldiers_in_Ramallah_July_20_1948.webp/899px-John_Bagot_Glubb_and_soldiers_in_Ramallah_July_20_1948.webp.png"
+      },
+      {
+        "year": 1949,
+        "title": "Armistice Agreements",
+        "description": "Armistice agreements are signed, ending the war. Israel controls 78% of Palestine. Jordan annexes the West Bank, and Egypt controls Gaza.",
+        "source": "https://www.britannica.com/event/Arab-Israeli-wars#ref239641",
+        "image": "https://cdn.britannica.com/21/99921-050-0112FA13/tanks-Israeli-Golan-Heights-Six-Day-War-Arab-June-10-1967.jpg"
+      }
+    ]
+  },
+  {
+    "period": "1950s-1960s: Rising Tensions and the PLO",
+    "events": [
+      {
+        "year": 1956,
+        "title": "Suez Crisis",
+        "description": "Israel, Britain, and France invade Egypt after President Nasser nationalizes the Suez Canal. They withdraw under pressure from the US and USSR.",
+        "source": "https://nl.wikipedia.org/wiki/Suezcrisis",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/1956_Suez_war_-_conquest_of_Sinai.jpg"
+      },
+      {
+        "year": 1964,
+        "title": "The Palestine Liberation Organization (PLO)",
+        "description": "The PLO is founded with the goal of establishing an independent Palestinian state.",
+        "source": "https://www.britannica.com/topic/Palestine-Liberation-Organization",
+        "image": "https://cdn.britannica.com/43/263043-050-C12DD1F1/Yasser-Arafat-Kamal-Nasser-PLO-press-conference-Amman-Jordan-1970s.jpg"
+      }
+    ]
+  },
+  {
+    "period": "Six-Day War and Occupation (1967)",
+    "events": [
+      {
+        "year": 1967,
+        "title": "Six-Day War",
+        "description": "Israel preemptively attacks Egypt, Jordan, and Syria, capturing the West Bank, Gaza, East Jerusalem, the Golan Heights, and the Sinai Peninsula.",
+        "source": "https://www.history.com/topics/middle-east/six-day-war",
+        "image": "https://assets.editorial.aetnd.com/uploads/2018/05/six-day-war-gettyimages-3329805.jpg"
+      },
+      {
+        "year": 1967,
+        "title": "UN Resolution 242",
+        "description": "The UN calls for Israel to withdraw from occupied territories in exchange for peace.",
+        "source": "https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_242",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/6DayWarEnglish.png/800px-6DayWarEnglish.png"
+      }
+    ]
+  },
+  {
+    "period": "1970s-1980s: Peace Talks and Uprisings",
+    "events": [
+      {
+        "year": "1978-1979",
+        "title": "Camp David Accords",
+        "description": "Egypt and Israel sign a peace treaty, returning the Sinai Peninsula to Egypt.",
+        "source": "https://history.state.gov/milestones/1977-1980/camp-david",
+        "image": "https://static.history.state.gov/milestones/camp-david.jpg"
+      },
+      {
+        "year": "1987–1993",
+        "title": "The First Intifada",
+        "description": "Palestinians protest Israeli occupation, leading to widespread unrest and a harsh Israeli response.",
+        "source": "https://en.wikipedia.org/wiki/First_Intifada",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Intifada_in_Gaza_Strip%2C_1987_V_Dan_Hadani_Archive.jpg/1920px-Intifada_in_Gaza_Strip%2C_1987_V_Dan_Hadani_Archive.jpg"
+      }
+    ]
+  },
+  {
+    "period": "Oslo Accords and Attempts at Peace (1990s)",
+    "events": [
+      {
+        "year": 1993,
+        "title": "The Oslo Accords",
+        "description": "Israel and the PLO recognize each other, establishing the Palestinian Authority to govern parts of the West Bank and Gaza.",
+        "source": "https://www.un.org/unispal/document/auto-insert-186108/",
+        "image": "https://assets.editorial.aetnd.com/uploads/2018/02/us-israel-palestine-oslo-accords.jpg"
+      },
+      {
+        "year": 1995,
+        "title": "Oslo II Accords",
+        "description": "A second agreement expands Palestinian self-rule but divides the West Bank into three areas of control.",
+        "source": "https://en.wikipedia.org/wiki/Oslo_II_Accord",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Oslo_Areas_and_barrier_projection_2005.png"
+      }
+    ]
+  },
+  {
+    "period": "The Second Intifada and Gaza Disengagement (2000s)",
+    "events": [
+      {
+        "year": "2000–2005",
+        "title": "The Second Intifada",
+        "description": "The Second Intifada erupts after failed peace talks, leading to widespread violence and heavy casualties. Isreali casualties: 1074, Palestinian casualties: 3574.",
+        "source": "https://en.wikipedia.org/wiki/Second_Intifada",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Faris_odeh03a.jpg"
+      },
+      {
+        "year": 2005,
+        "title": "Gaza Disengagement",
+        "description": "Israel withdraws settlers and military from Gaza but maintains control over its borders, airspace, and sea.",
+        "source": "https://en.wikipedia.org/wiki/Israeli_disengagement_from_the_Gaza_Strip",
+        "image": "https://cdn.britannica.com/97/251097-050-9E60F386/evictions-Israelis-Gaza-Strip-August-2005.jpg?w=400&h=225&c=crop"
+      }
+    ]
+  },
+  {
+    "period": "Political Division and Ongoing Conflicts (2006-present)",
+    "events": [
+      {
+        "year": 2006,
+        "title": "Hamas Wins Palestinian Legislative Elections",
+        "description": "Leading to political division between Fatah (West Bank) and Hamas (Gaza).",
+        "source": "https://en.wikipedia.org/wiki/2006_Palestinian_legislative_election",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Palestine_election_results_2006.svg/1920px-Palestine_election_results_2006.svg.png"
+      },
+      {
+        "year": "2008–2009, 2012, 2014, 2021, 2023",
+        "title": "Gaza-Israel Conflicts",
+        "description": "Periodic escalations lead to wars, heavy casualties, and significant damage in Gaza.",
+        "source": "https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker",
+        "image": "https://www.aljazeera.com/wp-content/uploads/2024/11/INTERACTIVE-LIVE-TRACKER-GAZA__LEBANON_NOV15_2024_1430GMT-2024_1080x1350-GAZA-1731681865.jpg?w=770&quality=80"
+      }
+    ]
+  },
+  {
+    "period": "Recent Developments",
+    "events": [
+      {
+        "year": 2020,
+        "title": "Abraham Accords",
+        "description": "Israel normalizes relations with the UAE, Bahrain, and Morocco, brokered by the U.S., without addressing the Israel-Palestine conflict.",
+        "source": "https://www.state.gov/the-abraham-accords/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/President_Trump_and_The_First_Lady_Participate_in_an_Abraham_Accords_Signing_Ceremony_%2850345629858%29.jpg/1920px-President_Trump_and_The_First_Lady_Participate_in_an_Abraham_Accords_Signing_Ceremony_%2850345629858%29.jpg"
+      },
+      {
+        "year": 2021,
+        "title": "May Conflict",
+        "description": "Tensions over East Jerusalem and Al-Aqsa Mosque spark violence, resulting in an 11-day conflict with high casualties in Gaza.",
+        "source": "https://en.wikipedia.org/wiki/2021_Israel%E2%80%93Palestine_crisis#:~:text=The%202021%20Gaza%20War%2C%20sometimes,into%20effect%20on%2021%20May.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Disorders_in_Lod%2C_May_2021._VII.jpg"
+      },
+      {
+        "year": 2023,
+        "title": "West Bank Settlements",
+        "description": "Israel continues settlement expansions in the West Bank, heightening tensions over the two-state solution's viability.",
+        "source": "https://www.eeas.europa.eu/delegations/palestine-occupied-palestinian-territory-west-bank-and-gaza-strip/2023-report-israeli-settlements-occupied-west-bank-including-east-jerusalem-january-december-2023_en?s=206",
+        "image": "https://static01.nyt.com/images/2023/06/28/multimedia/28westbank-explainer-01-wgzv/28westbank-explainer-01-wgzv-superJumbo.jpg"
+      }
+    ]
+  }
+]
