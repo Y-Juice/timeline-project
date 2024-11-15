@@ -1,45 +1,47 @@
-import React, { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
+import React from 'react';
+import PropTypes from 'prop-types';
+import './Event.css';
 
 const Event = ({ year, title, description, source, image }) => {
-  const imageRef = useRef();
-
-  useEffect(() => {
-    // Animate the image when it comes into view
-    gsap.fromTo(
-      imageRef.current,
-      { x: '-100%', opacity: 0 },
-      {
-        x: '0%',
-        opacity: 1,
-        duration: 1,
-        scrollTrigger: {
-          trigger: imageRef.current,
-          start: 'top 80%',
-          end: 'bottom 20%',
-          toggleActions: 'play none none reverse',
-        },
-      }
-    );
-  }, []);
+  if (!year || !title || !description) {
+    console.warn('Missing event data');
+    return null; // Avoid rendering if critical props are missing
+  }
 
   return (
     <div className="event">
       <div className="event-content">
-        <h3>{year}</h3>
-        <h4>{title}</h4>
-        <p>{description}</p>
+        <h3>{title}</h3>
+        <p><strong>{year}</strong>: {description}</p>
         {source && (
           <a href={source} target="_blank" rel="noopener noreferrer">
             Source
           </a>
         )}
       </div>
-      <div className="event-image">
-        <img ref={imageRef} src={image} alt={title} />
-      </div>
+      {image && (
+        <div className="event-image">
+          <img src={image} alt={title} />
+        </div>
+      )}
     </div>
   );
+};
+
+Event.propTypes = {
+  year: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  title: PropTypes.string,
+  description: PropTypes.string,
+  source: PropTypes.string,
+  image: PropTypes.string,
+};
+
+Event.defaultProps = {
+  year: 'Unknown Year',
+  title: 'Untitled Event',
+  description: 'No description available.',
+  source: '',
+  image: '',
 };
 
 export default Event;

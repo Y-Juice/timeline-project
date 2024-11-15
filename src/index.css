@@ -3,43 +3,58 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: #171717;
+  overflow-x: hidden; /* Prevent horizontal scroll bar */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 .timeline {
-  width: 80%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: fit-content; /* Adjust width dynamically to fit children */
+  gap: 2rem; /* Add spacing between periods */
   padding: 2rem;
-  overflow: hidden;
+}
+
+.period {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem; /* Spacing between events */
 }
 
 .event {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 2rem 0;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 400px; /* Define a consistent width */
 }
 
 .event-content {
   flex: 1;
-  padding: 1rem;
+  text-align: center;
 }
 
 .event-image {
-  flex: 1;
+  width: 100%;
+  height: auto;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .event-image img {
   width: 100%;
-  max-width: 400px;
-  transform: translateX(-100%);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.event:hover img {
+  transform: scale(1.05); /* Add slight zoom on hover */
 }
