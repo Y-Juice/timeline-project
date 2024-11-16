@@ -200,13 +200,6 @@
         "description": "Leading to political division between Fatah (West Bank) and Hamas (Gaza).",
         "source": "https://en.wikipedia.org/wiki/2006_Palestinian_legislative_election",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Palestine_election_results_2006.svg/1920px-Palestine_election_results_2006.svg.png"
-      },
-      {
-        "year": "2008–2009, 2012, 2014, 2021, 2023",
-        "title": "Gaza-Israel Conflicts",
-        "description": "Periodic escalations lead to wars, heavy casualties, and significant damage in Gaza.",
-        "source": "https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker",
-        "image": "https://www.aljazeera.com/wp-content/uploads/2024/11/INTERACTIVE-LIVE-TRACKER-GAZA__LEBANON_NOV15_2024_1430GMT-2024_1080x1350-GAZA-1731681865.jpg?w=770&quality=80"
       }
     ]
   },
@@ -233,6 +226,13 @@
         "description": "Israel continues settlement expansions in the West Bank, heightening tensions over the two-state solution's viability.",
         "source": "https://www.eeas.europa.eu/delegations/palestine-occupied-palestinian-territory-west-bank-and-gaza-strip/2023-report-israeli-settlements-occupied-west-bank-including-east-jerusalem-january-december-2023_en?s=206",
         "image": "https://static01.nyt.com/images/2023/06/28/multimedia/28westbank-explainer-01-wgzv/28westbank-explainer-01-wgzv-superJumbo.jpg"
+      },
+      {
+        "year": "2008–2009, 2012, 2014, 2021, 2023",
+        "title": "Gaza-Israel Conflicts",
+        "description": "Periodic escalations lead to wars, heavy casualties, and significant damage in Gaza.",
+        "source": "https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker",
+        "image": "https://www.aljazeera.com/wp-content/uploads/2024/11/INTERACTIVE-LIVE-TRACKER-GAZA__LEBANON_NOV15_2024_1430GMT-2024_1080x1350-GAZA-1731681865.jpg?w=770&quality=80"
       }
     ]
   }
