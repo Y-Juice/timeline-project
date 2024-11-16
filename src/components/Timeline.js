@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollTrigger, TextPlugin } from 'gsap/all';
 import data from '../data/data.json';
 import '../index.css';
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 const Timeline = () => {
   useEffect(() => {
@@ -17,19 +17,55 @@ const Timeline = () => {
       return;
     }
 
-    // Horizontal scroll setup
-    const totalWidth = events.length * 500; // Assuming each event is 400px wide
+    const totalWidth = events.length * 500;
 
+    // Horizontal scroll setup
     gsap.to(timeline, {
-      x: () => `-${totalWidth}px`,
+      x: () => `-${totalWidth}px`, // Corrected template literal
       ease: 'none',
       scrollTrigger: {
         trigger: timeline,
         start: 'top top',
-        end: () => `+=${totalWidth}`,
+        end: () => `+=${totalWidth}`, // Corrected template literal
         scrub: 1,
         pin: true,
       },
+    });
+
+    // Fade in-out animations for individual events
+    events.forEach(event => {
+      gsap.fromTo(
+        event,
+        { opacity: 0, y: 80 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 1,
+          scrollTrigger: {
+            trigger: event,
+            start: 'left 70%',
+            end: 'right 20%',
+            scrub: true,
+          },
+        }
+      );
+    });
+
+    // Typewriter effect for titles
+    const typewriterTargets = document.querySelectorAll('.event h3');
+    typewriterTargets.forEach(target => {
+      const content = target.textContent;
+      target.textContent = ''; // Clear text for animation
+      gsap.to(target, {
+        text: content, // Animate text content
+        duration: 2,
+        ease: 'power2.inPut',
+        scrollTrigger: {
+          trigger: target,
+          start: 'left 80%',
+          end: 'right 20%', // Trigger animation when text is visible
+        },
+      });
     });
 
     return () => {
