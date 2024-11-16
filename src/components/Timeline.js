@@ -18,7 +18,7 @@ const Timeline = () => {
     }
 
     // Horizontal scroll setup
-    const totalWidth = events.length * 400; // Assuming each event is 400px wide
+    const totalWidth = events.length * 500; // Assuming each event is 400px wide
 
     gsap.to(timeline, {
       x: () => `-${totalWidth}px`,
