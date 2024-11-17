@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# The Question of Palestine - Dynamic Transitions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Question of Palestine is an educational platform designed to inform users about the history of the Palestine-Israel conflict. By presenting key events with credible, linked sources, the site encourages independent research and critical thinking, empowering users to form their own educated opinions.
 
-## Available Scripts
+## Features
+- **Interactive Timeline**: A horizontally scrolling timeline that displays historical events.
+- **Typewriter Effect**: Event dates appear with a typewriter effect as they scroll into view.
+- **Scroll Indicator**: A draggable ball on a blue rectangle spans the bottom of the viewport, reflecting the scroll position.
+- **Smooth Navigation**: The ball allows users to navigate the timeline by dragging it or by just scrolling normally.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Y-Juice/timeline-project.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd timeline-project
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm start
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## File Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```plaintext
+src/
+├── components/
+│   ├── Timeline.js     # Main timeline component with scroll and animations
+│   ├── Event.js        # Component to render individual events
+├── data/
+│   └── data.json       # Historical event data
+├── index.css           # Styling for the app
+├── App.js              # Main app component
+├── index.js            # Entry point
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Core framework for building the UI.
+- **GSAP**: Animation library for scroll-triggered animations and typewriter effects.
+  - Plugins used:
+    - `ScrollTrigger`
+    - `TextPlugin`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install GSAP:
+```bash
+npm install gsap
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Sources Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Typewriter Effect with GSAP**:
+   - GSAP `TextPlugin` for animating text in a typewriter effect.
+   - Source: [GSAP TextPlugin Documentation](https://greensock.com/docs/v3/Plugins/TextPlugin).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Scroll Animation with ScrollTrigger**:
+   - GSAP `ScrollTrigger` for creating animations based on scroll position.
+   - Source: [GSAP ScrollTrigger: Full Documentation](https://greensock.com/docs/v3/Plugins/ScrollTrigger).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Draggable Elements**:
+   - Custom implementation of a draggable scrollbar.
+   - Based on event handling with `mousedown`, `mousemove`, and `mouseup`.
+   - Source: [MDN Web Docs: Mouse Events](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent).
 
-## Learn More
+4. **Dynamic Element Positioning**:
+   - Using `getBoundingClientRect()` to get element bounds.
+   - Source: [MDN Web Docs: Element.getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. **Programmatic Scrolling**:
+   - Controlling the scroll position of the page with `window.scrollTo`.
+   - Source: [MDN Web Docs: Window.scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. **Linear Gradient Background for Scroll Indicator**:
+   - Blue-greenish gradient using CSS linear gradients.
+   - Source: [CSS Tricks: CSS Gradient Backgrounds](https://css-tricks.com/examples/CSS3Gradient/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## How to Use
 
-### Analyzing the Bundle Size
+1. Download all node modules:
+` npm install`
+2. Run the website using:
+`npm start`
+3. open [localhost:3000](http://localhost:3000/) to view the website
+4. Scroll to view the next events in the history or drag the bal on the bottom.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Add more interactivity to the events (e.g., expand on click).
+- Support for touch gestures for mobile devices.
+- Dynamic resizing for responsive layouts.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
